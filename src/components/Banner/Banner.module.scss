@@ -1,0 +1,29 @@
+.banner {
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &-state {
+    &-success {
+      background-color: #27ae60;
+    }
+    &-info {
+      background-color: #1078ca;
+    }
+    &-warning {
+      background-color: #fcc317;
+    }
+    &-error {
+      background-color: #e83939;
+    }
+  }
+}
+
+.action {
+  display: flex;
+  align-items: center;
+}
+
+.action-close {
+  margin: 0 8px;
+}
