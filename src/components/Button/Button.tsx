@@ -29,12 +29,12 @@ const Button = ({
 }: ButtonProps) => {
   const variantTypography = (size: Size) =>
     size === "long"
-      ? "subtitle-small"
+      ? "subtitle-2"
       : size === "medium1"
-      ? "subtitle-small"
+      ? "subtitle-2"
       : size === "medium2"
-      ? "subtitle-small"
-      : "body-base";
+      ? "subtitle-2"
+      : "body-1";
 
   const weightTypography = (size: Size) =>
     size === "long"
