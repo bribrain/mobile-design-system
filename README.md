@@ -1,17 +1,11 @@
 
-# BRIBrain Design System Desktop
+# BRIBrain Design System Mobile
 
-Design system of BRIBrain v1
-
-
-
+Design system of BRIBrain Mobile v1
 
 ## Authors
 
 - [@milyasbpa](https://www.github.com/milyasbpa) - Principal Architect
-- [@rizkyakhid](https://www.github.com/rizkyakhid) - Principal Engineer in Web
-- [@ekydpa21](https://www.github.com/ekydpa21) - Senior FrontEnd Developer
-
 
 ## Installation
 
@@ -21,9 +15,8 @@ Install DS with npm
 
 ```bash
   // with npm
-  npm install @bribrain-design
+  npm install @bribrain-design-mobile
   
   // with yarn
-  yarn add @bribrain-design
+  yarn add @bribrain-design-mobile
 ```
-    
