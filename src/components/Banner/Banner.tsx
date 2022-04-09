@@ -21,7 +21,7 @@ export default function Banner({
 }: IBannerProps) {
   return (
     <div className={`${style["banner"]} ${style[`banner-state-${state}`]}`}>
-      <Typography text={message} variant="body-small" weight="medium" />
+      <Typography text={message} variant={"body-2"} weight="medium" />
       <div className={`${style["action"]}`}>
         {action && (
           <div onClick={onAction} className={`${style["action-close"]}`}>
